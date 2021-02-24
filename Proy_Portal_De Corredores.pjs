@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{D39F2E65-8F0A-4147-B6F4-1331E07765EE}">
 	<children>
-		<child name="Proy_SOAT" key="{91B82DDA-C4C3-40A9-ADCF-D42CCDB9E26A}" path="Proy_SOAT\Proy_SOAT.mds" />
+		<child name="Portal_Corredores" key="{91B82DDA-C4C3-40A9-ADCF-D42CCDB9E26A}" path="Proy_SOAT\Portal_Corredores.mds" />
 	</children>
 	<testItems key="{E5F73D8E-85C5-4A86-AA23-A8A40F6905A4}">
 		<children>
