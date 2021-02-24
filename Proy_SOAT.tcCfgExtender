@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="activity" type="S" value="{D39F2E65-8F0A-4147-B6F4-1331E07765EE}"/>
+			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
+				<Node name="workspace">
+					<Node name="0">
+						<Node name="editor">
+							<Node name="{a72a71ba-f211-4a81-a710-5ec9d09030e3}">
+								<Prp name="col" type="I" value="0"/>
+								<Prp name="key" type="S" value="{51CE20E8-64BC-4C31-8674-E521ED0B80A6}"/>
+								<Prp name="line" type="I" value="0"/>
+								<Prp name="sellength" type="I" value="0"/>
+								<Prp name="selstart" type="I" value="0"/>
+								<Prp name="windowchar" type="I" value="0"/>
+								<Prp name="windowline" type="I" value="0"/>
+							</Node>
+							<Prp name="editor" type="S" value="{3D0013FB-2878-4E1D-92B3-FAC5B01E67FE}"/>
+							<Prp name="focused" type="S" value="{51CE20E8-64BC-4C31-8674-E521ED0B80A6}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="Proy_SOAT\Scenarios\Description of the new feature1.feature"/>
+					</Node>
+					<Node name="1">
+						<Node name="editor">
+							<Prp name="editor" type="S" value="{CFB5A3AC-D002-4032-A225-E64644C1B753}"/>
+							<Prp name="focused" type="S" value="{44640658-E094-444A-A86C-212421E56D3D}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{25C37806-ADF4-46DA-8ACE-9899FCA45EC6}"/>
+					</Node>
+					<Prp name="docking" type="H" value="617162696E00000001000000AD0200007801730C74F177F6E666800239201DCAC6C060CB0C13C147A7304164EF783F7BEFDEFAD17971E7F52BA56F643919B58112201398BA34E256F616BBB52D4AFBB8DB76F7676D4606864D40F1067606868B9856B0E0B30C24F71F0A0E01CD3981858F577F054816E4E2B550656B166F3DCF74C1C86191EA33379783DB8341AEBB0194C3701D17503098A1842191A108482A30040059E90CA940513AB81868CB75200681DFC20CB6151AB27E9336FF3ABA412EFD1F4E07CB0315BB001D58CC900C7472264301D0D9990CF90C7940C7E733A401C912860CA0BC02502495A11C48A701E944A06829507D2A8321503F7DBCC608F217B100001432768E"/>
+					<Prp name="editorscount" type="I" value="2"/>
+					<Prp name="enabled" type="B" value="-1"/>
+				</Node>
+			</Node>
+			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
+				<Prp name="history" type="S" value=""/>
+			</Node>
+			<Node name="{86873e45-42bf-4c44-8fbd-d6bdfbfd5189}"/>
+			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
+				<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}"/>
+			</Node>
+			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
+				<Node name="{00000000-0000-0000-0000-000000000000}">
+					<Node name="{53440018-a49b-4a38-aec7-3e815c45978d}"/>
+					<Node name="{a716b1ee-a488-4742-a010-72834de9e3e6}">
+						<Prp name="bottom" type="I" value="5"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+				</Node>
+			</Node>
+			<Node name="{dadeeeea-7bf7-4f7b-98d1-fc8ffe5fedae}">
+				<Node name="{02542b04-194a-4903-b727-27ddea5f3f24}"/>
+				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
+			</Node>
+			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
+				<Node name="proy_soat">
+					<Node name="proy_soat">
+						<Node name="scenarios"/>
+						<Node name="script"/>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
+	</Node>
+</Nodes>

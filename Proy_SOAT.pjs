@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{D39F2E65-8F0A-4147-B6F4-1331E07765EE}">
+	<children>
+		<child name="Proy_SOAT" key="{91B82DDA-C4C3-40A9-ADCF-D42CCDB9E26A}" path="Proy_SOAT\Proy_SOAT.mds" />
+	</children>
+	<testItems key="{E5F73D8E-85C5-4A86-AA23-A8A40F6905A4}">
+		<children>
+			<testItem key="{91B82DDA-C4C3-40A9-ADCF-D42CCDB9E26A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{545F2F8E-ED34-4303-9529-EA66E606BA5E}" />
+	<analysis key="{0755EA55-4E6E-4233-B490-C154959CA31D}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
