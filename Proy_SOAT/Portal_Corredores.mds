@@ -4,6 +4,8 @@
 		<child name="NameMapping" key="{14481DA2-2A1E-4419-9E4D-27E4F578404B}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Script" key="{4B4AEC4B-EFA8-4923-AA3C-8055C7BA8EE3}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="Scenarios" key="{FD0B3328-3FCC-42B0-91F2-AAF179643C9E}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
+		<child name="KeywordTests" key="{115E500D-51BF-459B-BA7B-A4B7D8C51D84}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="Stores" key="{AA74D6B4-6BF2-4625-8F97-BD2F11A6EB33}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{759DBB2B-189A-40BF-B1EC-866CC8938CA4}" version="14">

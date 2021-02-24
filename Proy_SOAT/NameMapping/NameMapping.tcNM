@@ -3,6 +3,143 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{8199A4F5-D044-43B0-94C2-9EA6F18AC17F}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{300A8765-C498-4C6E-A203-72E8ED48A07F}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{1DC95F11-3E70-4871-9A5B-AD9F00B4CC42}">
+								<Image FileName="1184192001" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageCuotasSomosCorredoresDePacFi" Key="{01EDAB62-BAB3-441D-8F30-715DDDC5F86F}">
+								<Image FileName="-742659323" Left="9" Top="97" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{2D74D38F-1C64-4CB9-A26D-B886EF434A9D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://somoscorredorescrt.pacificotest.com.pe/group/guest/pga/cuotas" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{733D60FD-EE7A-4042-B811-849C5313583B}">
+										<Image FileName="-742659323" Left="9" Top="158" Right="1908" Bottom="599" />
+										<TypeInfo Item0="{E532FF5A-E7DA-4144-9F46-4A83DF038D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Cuotas&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;content&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionPortletPeComPacificoPorta" Key="{6DE4AE53-2CA5-4C4E-8893-BCE7E8C23155}">
+										<Image FileName="-742659323" Left="9" Top="158" Right="1908" Bottom="599" />
+										<TypeInfo Item0="{E532FF5A-E7DA-4144-9F46-4A83DF038D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#portlet_pe_com_pacifico_portal_corredores_pga_cuota_CuotaPortlet_INSTANCE_MOMoCr0dqgOE" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_pe_com_pacifico_portal_corredores_pga_cuota_CuotaPortlet_INSTANCE_MOMoCr0dqgOE&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_p_id_pe_com_pacifico_portal_corredores_pga_cuota_CuotaPortlet_INSTANCE_MOMoCr0dqgOE_&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionCuota" Key="{5378593F-60B6-478D-A051-EE18C19FAA54}">
+										<Image FileName="-742659323" Left="227" Top="158" Right="1690" Bottom="599" />
+										<TypeInfo Item0="{E532FF5A-E7DA-4144-9F46-4A83DF038D89}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cuota" />
+											</Selector>
+											<Selector>
+												<Value Value="(//section[contains(.,&apos;Estados de cuenta - Cuotas&apos;)])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;cuota&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_pe_com_pacifico_portal_corredores_pga_cuota_CuotaPortlet_INSTANCE_MOMoCr0dqgOE&apos;]/div/div/div/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{72926456-52D8-4CE7-BF7C-E56DC05AC34A}">
+										<Image FileName="-742659323" Left="246" Top="493" Right="1671" Bottom="542" />
+										<TypeInfo Item0="{2440343C-569B-44D4-B102-2FA8EA6275A1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;No se encontraron registros&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".dataTables_empty" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;tablaCuota&apos;]/tbody/tr/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/table/tbody/tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{300A8765-C498-4C6E-A203-72E8ED48A07F}">
+			<Child Name="BrowserWindow" Owner="{1DC95F11-3E70-4871-9A5B-AD9F00B4CC42}" />
+			<Child Name="pageCuotasSomosCorredoresDePacFi" Owner="{01EDAB62-BAB3-441D-8F30-715DDDC5F86F}">
+				<Child Name="sectionContent" Owner="{733D60FD-EE7A-4042-B811-849C5313583B}">
+					<Child Name="sectionPortletPeComPacificoPorta" Owner="{6DE4AE53-2CA5-4C4E-8893-BCE7E8C23155}">
+						<Child Name="sectionCuota" Owner="{5378593F-60B6-478D-A051-EE18C19FAA54}">
+							<Child Name="cell" Owner="{72926456-52D8-4CE7-BF7C-E56DC05AC34A}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>
