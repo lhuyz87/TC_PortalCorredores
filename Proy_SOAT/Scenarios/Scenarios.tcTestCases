@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scenarios>
-	<Feature Path="Description of the new feature1.feature" />
+	<Feature Path="Consulta de estado de cuenta.feature" />
 </Scenarios>
