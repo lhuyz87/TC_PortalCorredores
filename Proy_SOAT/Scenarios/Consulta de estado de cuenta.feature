@@ -1,5 +1,5 @@
 ﻿Feature: Consulta de estado de cuenta
-
+  @Rregresion
   Scenario Outline: Relizar consulta de estado de cuenta por DNI
     Given Acceso al sistema portal de corredores
     And Ingreso a la opción Mi Portafolio con el corredor usuario "<usuario>"  y contraseña "<password>"
