@@ -1,4 +1,4 @@
-﻿Feature: Description of the new feature1
+﻿Feature: Consulta de estado de cuenta
 
   Scenario: A description of your business scenario
     Given some precondition
